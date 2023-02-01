@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <style>
+        body {
+            font-family: Arial, 'sans-serif';
+            background: #1e1e3e;
+            color: #efefef;
+            text-align: center;
+        }
+
+        #image-result {
+            opacity: 0;
+        }
+
+        #continueButton {
+            padding: 5px 10px 5px 10px;
+        }
+
+        #token {
+            font-family: monospace;
+            background: black;
+            color: white;
+            padding: 10px;
+            width: 30%;
+            margin: auto;
+            word-wrap: anywhere;
+        }
+
+        .success {
+            color: greenyellow;
+        }
+
+        .fail {
+            color: red;
+        }
+
+        object {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bot Verification</h1>
+    <div id="image-result"></div>
+    <button id="continueButton" disabled>Click to Verify</button>
+    <script src="bundle.js"></script>
+    <div>
+        <h2 id="resultHeader"></h2>
+        <div id="resultBlurb"></div>
+        <div id="token"></div>
+    </div>
+</body>
+</html>
